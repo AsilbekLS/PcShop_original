@@ -1,0 +1,242 @@
+*{
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+.papa{
+    flex-direction: column;
+    gap:162px
+}
+.cotigoria{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+
+}
+
+.cotigoria > button{
+    width: 124px;
+    height: 50px;
+    background: none;
+    border: none;
+    transition:  0.5s;
+    border-radius: 7px;
+}
+.cotigoria > button:hover{
+    background-color: rgba(238, 205, 15, 0.47);
+    transform: scale(1.1);
+    font-weight: 500;
+}
+.papa{
+    display: flex;
+}
+
+.butonlar{
+    position: relative;
+}
+.butonlar>button{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    transition: 1s;
+    background-color: rgba(0, 0, 0, 0.663);
+}
+.butonlar>button:hover{
+    background-color: brown;
+
+}
+.right_b{
+left: 840px;
+top: 160px;
+}
+
+.left_b{
+   
+    top: 160px;
+    }
+
+.carusel{
+    padding-top: 40px;
+    display: flex;
+    width: 892px;
+    height: 384px;
+    overflow: hidden;
+}
+.shaptoli{
+    width: 892px;
+    
+height: 344px;
+}
+.activer{
+    transition: 1s;
+    /* margin-left: 12882px; */
+    width: 1px;
+}
+.img_container {
+  display: none; /* Скрывает все изображения по умолчанию */
+}
+
+.img_container.activer {
+  display: block; /* Показывает активное изображение */
+}
+
+.carousel {
+    position: relative;
+  }
+  
+  .carousel img {
+    width: 100%;
+    height: auto;
+    animation: carousel-animation 1s ease-in-out;
+  }
+  
+  @keyframes carousel-animation {
+    from { opacity: 0; transform: scale(0.5); }
+    to { opacity: 1; transform: scale(1); }
+  }
+  .sec1{
+    gap:162px;
+    display: flex;
+  }
+  
+  .sec2{
+display: flex;
+flex-direction: column;
+  }
+  .write{
+    display: flex;
+    gap:24px;
+    flex-direction: column;
+    width: 211px;
+  }
+  .tepa_w{
+    display: flex;
+    gap: 16px;
+align-items: center;
+  }
+.kor{
+  border-radius: 5px;
+    width: 20px;
+height: 40px;
+    background-color: #DB4444;
+}
+.sp20{
+    color: var(--Secondary-2, #DB4444);
+/* Title/16PX Semibold */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px; /* 125% */
+}
+.sp21{
+    color: var(--Text2, #000);
+
+/* Heading/36PX SemiBold */
+font-family: Inter;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 48px; /* 133.333% */
+letter-spacing: 1.44px;
+}
+
+.clock {
+  display: flex;
+  gap: 18px;
+  padding-top: 66px;
+  font-size: 48px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.clock{
+  position: relative;
+  top: 10px;
+  left: 87px;
+}
+.boshjoy{
+  display: flex;
+  align-items: end;
+  height: 103px;
+}
+.tanla{
+  overflow: hidden;
+  width: 1170px;
+  height: 350px;
+}
+
+
+.tanla{
+ 
+  margin-top: 31px;
+  display: flex;
+  gap: 30px;
+}
+.img_m{
+  width: 270px;
+  height: 250px;
+}
+.yoz_map{
+ padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.sp30{
+  color: #000;
+
+/* Title/16PX Medium */
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+}
+.sp31{
+  color: var(--Secondary-2, #DB4444);
+
+/* Title/16PX Medium */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+}
+.tudasuda{
+ padding-left: 580px;
+ display: flex;
+ gap: 8px;
+}
+.tudasuda>button{
+  width: 46px;
+height: 46px;
+flex-shrink: 0;
+fill: var(--Secondary, #F5F5F5);
+border-radius: 50%;
+}
+.box_t{
+  transition: 1s;
+}
+.sec3{
+ 
+  display: flex;
+  gap: 30px;
+}
+.sec3>button{
+  width: 170px;
+  background-color: rgb(219, 225, 225);
+  height: 160px;
+  font-size: 20px;
+  transition: 0.1s;
+}
+.sec3>button:hover{
+background-color: #DB4444;
+transform:scale(1.1) ;
+}
+.sec3>button:active{
+  background-color: rgb(136, 200, 18);
+}
